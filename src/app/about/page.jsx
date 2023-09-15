@@ -2,14 +2,13 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="mx-w-6xl mx-auto space-y-4 p-4">
+    <div className="max-w-6xl mx-auto space-y-4 p-4">
       <h1 className="text-2xl font-medium text-amber-600">About</h1>
       <p>
         Welcome to our movie database website! We are a team of passionate movie
         enthusiasts who have come together to create a one-stop destination for
         all your movie-related needs.
       </p>
-
       <p>
         Our website is designed to provide you with a comprehensive database of
         movies from all around the world, along with the latest news, reviews,
@@ -19,7 +18,6 @@ const page = () => {
         actor, genre, or release date, making it easy to find the perfect movie
         for any occasion.
       </p>
-
       <p>
         In addition to our extensive movie database, we also offer a platform
         for movie lovers to connect and share their thoughts on the latest
@@ -36,5 +34,4 @@ const page = () => {
     </div>
   );
 };
-
 export default page;
